@@ -1,0 +1,76 @@
+body {
+    border: 3px solid black;
+    height: 200vh;
+    padding: 10px;
+    
+}
+header {
+    border: 2px solid black;
+    height: 70px;
+    padding: 5px;
+
+}
+header div{
+    border: 1px solid  black;
+    display:flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(166, 160, 171);
+}
+.company-logo {
+    border: 1px solid red;
+    width: 250px;
+    border-radius: 5px;
+    background-color: greenyellow;
+}
+.company-logo a {
+   border: 1px solid green; 
+   width: inherit;
+   justify-content: center;
+   display: flex;
+}
+#nav-links 
+{
+    width: 400%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#nav-links a
+{
+    border: 1px solid red;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    border: 2px solid black;
+    height:150px;
+    margin-top: 10px;
+    
+}
+main section{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex ;
+    justify-content: center;
+    margin: 1px;
+}
+#hero-section div{
+    border: 1px solid black;
+    width: 20%;
+    padding: 0;
+}
+#hero-section div h1{
+    border: 1px solid blue;
+    margin: 0;
+}
+#hero-section div p{
+    border: 1px solid purple;
+    margin: 0;
+}
+#hero-section div button{
+    border: 1px solid orange;
+}
